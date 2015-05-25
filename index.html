@@ -3,9 +3,6 @@ layout: default
 title: shaomingquan	blog
 ---
 <!-- 打印本页中的blog -->
-
-<div>{{ site.url }}</div>
-
 {% for post in paginator.posts %}
     <div>
         <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>

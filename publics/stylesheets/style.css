@@ -1,4 +1,30 @@
 /*style.css*/
-h2{
-	color: red;
+
+/*--- general resets ---*/
+body{
+	font-family: "Microsoft YaHei",微软雅黑,Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	color:rgb(63, 69, 73);
+}
+
+pre ,code{
+	font-family: Courier New,Arial;
+}
+/*love hate*/
+a:link{
+	color: rgb(127,147,157);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visit{
+	color: rgb(107,127,137);	
+}
+
+a:hover{
+	color:rgb(63, 69, 73);
+}
+
+li{
+	list-style: none;
 }
