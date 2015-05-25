@@ -1,3 +1,7 @@
+---
+layout: post
+category: "other"
+---
 #解决javascript回调过深的几种方案
 
 > 最近在看koa，学习了ES6中的generator，顺便把解决js异步编程的方案总结一下。
