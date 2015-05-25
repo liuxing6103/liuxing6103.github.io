@@ -1,0 +1,11 @@
+baseurl: /blog
+
+paginate: 8
+
+#baidu tongji
+baiduStatistics:
+  id: 804b005a1cde7ca0d5ba100668060910
+
+#comment config
+disqus:
+  id: shaomingquan

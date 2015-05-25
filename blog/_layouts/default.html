@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<script src="{{ site.url }}/publics/scripts/index.js"></script>
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?{{ site.baiduStatistics.id }}";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+	　　<title>{{ page.title }}</title>
+</head>
+<body>
+	<section id="mian">
+		<header>
+			my BLog
+			<a href="">sub</a>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="{{ site.url }}">lastests</a></li>
+				<li><a href="{{ site.url }}/series">series</a></li>
+			</ul>
+		</nav>
+		<section>
+　　		{{ content }}
+		</section>
+		<footer><a href="http://www.github.com/shaomingquan">shaomingquan</a></footer>
+	</section>
+</body>
+</html>

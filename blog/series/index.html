@@ -1,0 +1,32 @@
+---
+layout: default
+title: Categories
+---
+<h3>{{ page.title }}</h3>
+<!-- 导航 -->
+<ul>
+{% assign categories_list = site.categories %}
+  {% for category in categories_list %}
+      <li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}">
+          {{ category[0] | join: "/" }}
+      </a></li>
+  {% endfor %}
+</ul>
+
+<!-- 列表 -->
+<div>
+{% for category in site.categories %} 
+<h2 id="{{ category[0] }}" data-year="&diams;">{{ category[0] | join: "/" }}</h2>
+<ul style="list-style: none">
+  {% assign pages_list = category[1] %}  
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group %}
+          <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+ 
+</ul>
+{% endfor %}
+</div>
