@@ -2,7 +2,17 @@
 <html>
 <head>
 　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<script src="{{ site.url }}/publics/scripts/index.js"></script>
+	<!-- libs -->
+	<script src="{{ site.url }}/publics/scripts/libs/skel.min.js"></script>
+	<script src="{{ site.url }}/publics/scripts/libs/jquery-1.11.2.min.js"></script>
+	<script src="{{ site.url }}/publics/scripts/libs/jquery.smooth-scroll.min.js"></script>
+	<script src="{{ site.url }}/publics/scripts/libs/markdownMenu.js"></script>
+	<script src="{{ site.url }}/publics/scripts/libs/highlight.pack.js"></script>
+
+	<!-- style -->
+	<link rel="stylesheet" href="{{ site.url }}/publics/stylesheets/style.css">
+
+	<!-- baidu statistics -->
 	<script>
 	var _hmt = _hmt || [];
 	(function() {
@@ -13,18 +23,18 @@
 	})();
 	</script>
 
-	　　<title>{{ page.title }}</title>
+	<title>{{ page.title }}</title>
 </head>
 <body>
-	<section id="mian">
+	<section class="container">
 		<header>
-			my BLog
-			<a href="">sub</a>
+			<img src="{{ site.url }}/publics/images/logos/logo1.gif" alt="">
 		</header>
 		<nav>
 			<ul>
 				<li><a href="{{ site.url }}">lastests</a></li>
-				<li><a href="/blog/series">series</a></li>
+				<li><a href="{{ site.url }}/series">series</a></li>
+				<li><a href="">subscribe</a></li>
 			</ul>
 		</nav>
 		<section>

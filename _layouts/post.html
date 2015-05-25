@@ -8,7 +8,7 @@ layout: default
         <span><i></i> Published: </span>
         <span>{{ page.date | date_to_string }}</span>
         <span><i></i> Category: </span>
-        <span><a href="{{ site.url }}/categories.html#{{ page.category }}" >{{ page.category }}</a></span>
+        <span><a href="{{ site.url }}/series#{{ page.category }}" >{{ page.category }}</a></span>
     </div>
 
     <!-- 内容区 -->
@@ -45,11 +45,11 @@ layout: default
     <!-- 上一篇，下一篇 -->
     <nav>
         {% if page.previous %}
-        <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+        <a class="prev" href="{{site.url}}{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
         {% endif %}
 
         {% if page.next %}
-        <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+        <a class="next" href="{{site.url}}{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
         {% endif %}
     </nav>
 
@@ -58,7 +58,7 @@ layout: default
     <h2>Related Posts</h2>
     <ul>
     {% for post in site.related_posts limit:3 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
 </div>
