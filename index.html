@@ -5,11 +5,11 @@ title: shaomingquan	blog
 <!-- 打印本页中的blog -->
 {% for post in paginator.posts %}
     <div>
-        <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <h3><a href="{{ root }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
         <article>
             <p>{{ post.excerpt }}</p>
         </article>
-        <a href="{{ site.url }}{{ post.url }}"><i class="icon-link"></i></a>
+        <a href="{{ root }}{{ post.url }}"><i class="icon-link"></i></a>
         <div>
             <span>Published: </span>
             <span>{{ post.date | date_to_string }}</span>
@@ -26,7 +26,7 @@ title: shaomingquan	blog
                 {% if page == paginator.page %}
                     <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
                 {% else %}
-                    <li><a href="{{ site.url }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+                    <li><a href="{{ root }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
