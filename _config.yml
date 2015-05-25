@@ -1,5 +1,8 @@
 baseurl: /blog
 
+site:
+  url: /blog
+
 paginate: 8
 
 #baidu tongji
