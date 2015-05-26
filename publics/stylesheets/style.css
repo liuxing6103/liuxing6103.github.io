@@ -53,8 +53,8 @@ header img{
 
 header a{
 	display: block;
-	padding: 0px 20px;
-	margin: 18px 0px;
+	padding: 8px 20px;
+	margin: 10px 12px;
 	position: relative;
 }
 
@@ -74,7 +74,7 @@ header a:after ,header a:before{
 }
 
 .item-right a:after{	
-	
+	right: 0;
 }
 
 .item-left a{
