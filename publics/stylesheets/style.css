@@ -214,3 +214,7 @@ footer{
 #blogStage{
 	border-bottom: 1px solid rgb(127,147,157);
 }
+
+#blogStage img{
+	width: 100%;
+}
