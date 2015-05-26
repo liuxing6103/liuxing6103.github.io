@@ -6,7 +6,7 @@ links.each(function(){
 	$(this).click(function(e){
 		var id = $(this).attr("href").substring(1);
 		name="1428232557373"
-		$.smoothScroll({scrollTarget: "[name="+id+"]"});
+		$.smoothScroll({scrollTarget: "[id="+id+"]"});
 		e.preventDefault();
 		return false;
 	})
