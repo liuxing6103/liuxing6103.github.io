@@ -231,3 +231,19 @@ footer{
 #blogStage img{
 	width: 100%;
 }
+
+#totop{
+	position:fixed;
+	cursor:pointer;
+	opcity:0;
+	display:none;
+	left:50px;
+	bottom:50px;
+	width:56px;
+	height:56px;
+	background-image:url("../images/totop.png");
+	background-position:top right;
+}
+#totop:hover{
+	background-position:top left;
+}

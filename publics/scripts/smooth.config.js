@@ -10,6 +10,12 @@ links.each(function(){
 		e.preventDefault();
 		return false;
 	})
+});
+
+var goTop = $("#goTop");
+
+goTop.click(function(){
+	$.smoothScroll({scrollTarget : 0});
 })
 
 })()
