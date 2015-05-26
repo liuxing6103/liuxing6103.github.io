@@ -32,15 +32,16 @@
 <body>
 	<section class="container">
 		<header>
-			<img src="{{ site.url }}/publics/images/logos/logo1.gif" alt="">
+			<div class="item-right">
+				<a href="{{ site.url }}">posts</a>
+				<a href="{{ site.url }}/series">series</a>
+			</div>
+			<img src="{{ site.url }}/publics/images/logos/logo4.gif" alt="">
+			<div class="item-left">
+				<a href="">subscribe</a>
+				<a href="">contacts</a>
+			</div>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="{{ site.url }}">lastests</a></li>
-				<li><a href="{{ site.url }}/series">series</a></li>
-				<li><a href="">subscribe</a></li>
-			</ul>
-		</nav>
 		<section>
 　　		{{ content }}
 		</section>
