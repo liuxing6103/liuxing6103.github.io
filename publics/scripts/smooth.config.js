@@ -20,9 +20,11 @@ goTop.click(function(){
 
 $(window).bind("scroll" ,function(){
 	if($(window).scrollTop() > 200){
-		$("#totop").stop().animate({opacity:1});
+		$("#totop").css("display","block").stop().animate({opacity:1});
 	}else{
-		$("#totop").stop().animate({opacity:0});
+		$("#totop").stop().animate({opacity:0},function(){
+			$(this).css("display","none");
+		});
 	}
 })
 
