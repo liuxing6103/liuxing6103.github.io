@@ -2,13 +2,13 @@
 layout: post
 category: "other"
 ---
+众所周知javascript是单线程异步的，异步方法是最适合javascript的。node平台一般会提供同步方法和异步方法两个版本，然而同步方法并不能发挥node平台的优势。
+
 #解决javascript回调过深的几种方案
 
 > 最近在看koa，学习了ES6中的generator，顺便把解决js异步编程的方案总结一下。
 
 ##写在前面
-
-众所周知javascript是单线程异步的，异步方法是最适合javascript的。node平台一般会提供同步方法和异步方法两个版本，然而同步方法并不能发挥node平台的优势。
 
 何谓回调过深？比如现在有一个文件存着另一个文件的文件名，另一个文件里面有一个url，我们要向这个url发一个http请求。传统意义上的回调实现可能是这样的。
 
