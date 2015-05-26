@@ -125,17 +125,17 @@ header a:after ,header a:before{
 }
 
 .item-right a:hover:before{
-	height: 0;
+	width: 0;
 }
 
 .item-right a:hover:after{
-	height: 100%;
+	width: 100%;
 }
 
 .item-left a:hover:before{
-	height: 0;
+	width: 0;
 }
 
 .item-left a:hover:after{
-	height: 100%;
+	width: 100%;
 }
