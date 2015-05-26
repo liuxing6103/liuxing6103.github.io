@@ -143,6 +143,7 @@ header a:after ,header a:before{
 /* masonry */
 
 .container-fluid{
+	overflow: auto;
 /*	padding: 20px;
 */}
 
