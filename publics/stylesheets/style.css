@@ -38,6 +38,10 @@ li{
 	list-style: none;
 }
 
+td{
+	padding: 10px;
+}
+
 /*--- main style ---*/
 header div ,header img{
 	float: left;
