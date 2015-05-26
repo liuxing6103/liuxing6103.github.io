@@ -14,8 +14,10 @@ links.each(function(){
 
 var goTop = $("#gotop");
 
-goTop.click(function(){
-	$.smoothScroll({scrollTarget : 0});
+goTop.click(function(e){
+	$.smoothScroll({scrollTarget : "#top"});
+	e.preventDefault();
+	return false;
 })
 
 $(window).bind("scroll" ,function(){
