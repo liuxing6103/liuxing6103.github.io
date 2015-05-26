@@ -1,14 +1,14 @@
 skel.init({
   reset: 'normalize',
-  containers: '1050px',
+  containers: '1080px',
   breakpoints: {
     large : {
-      media: '(min-width: 1050px)',
+      media: '(min-width: 1080px)',
       href : '/blog/publics/stylesheets/large.css'
     },
     medium: {
-      media: '(min-width: 480px) and (max-width: 1050px)',
-      containers : "700px",
+      media: '(min-width: 480px) and (max-width: 1080px)',
+      containers : "730px",
       href : '/blog/publics/stylesheets/medium.css'
     },
     small: {
