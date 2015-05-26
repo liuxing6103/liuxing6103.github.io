@@ -6,15 +6,25 @@ title: shaomingquan	blog
     <div id="masonry" class="masonry">
     {% for post in paginator.posts %}
         <div class="box">
-            <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-            <article>
-                <p>{{ post.excerpt }}</p>
-            </article>
-            <a href="{{ site.url }}{{ post.url }}"><i class="icon-link"></i></a>
-            <div>
-                <span>Published: </span>
-                <span>{{ post.date | date_to_string }}</span>
-            </div>
+            <a href="{{ site.url }}{{ post.url }}">
+                <table>
+                    <tr>
+                        <td>
+                            <span>{{ post.date | date_to_string }}</span>
+                        </td>
+                        <td>
+                            <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <article>
+                                <p>{{ post.excerpt }}</p>
+                            </article>
+                        </td>
+                    </tr>
+                </table>
+            </a>
         </div>
     {% endfor %}
     </div>
