@@ -75,13 +75,13 @@ header a:after ,header a:before{
 .item-right a:before{
 	width: 50%;	
 	right: 0;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 }
 
 .item-right a:after{	
 	left: 0;
-	transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
 }
 
 .item-left a{
@@ -91,11 +91,11 @@ header a:after ,header a:before{
 .item-left a:before{
 	width: 50%;
 	left: 0;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 }
 
 .item-left a:after{
 	right: 0;
-	transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
 }
