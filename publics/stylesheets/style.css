@@ -210,7 +210,7 @@ footer{
 	margin: 5px;
 }
 
-.post-stage{
+.post-stage ,.category-stage{
 	width: 730px;
 	margin: 0px auto;
 }
