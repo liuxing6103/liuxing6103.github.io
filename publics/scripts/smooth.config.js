@@ -12,7 +12,7 @@ links.each(function(){
 	})
 });
 
-var goTop = $("#gotop");
+var goTop = $("#totop");
 
 goTop.click(function(e){
 	$.smoothScroll({scrollTarget : "#top"});
