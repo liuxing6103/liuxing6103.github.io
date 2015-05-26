@@ -5,9 +5,9 @@ layout: default
     <!-- 标题，日期，分类 -->
     <h2>{{ page.title }}</h2>
     <div>
-        <span><i></i> Published: </span>
+        <span><i><b>Published</b></i></span>
         <span>{{ page.date | date_to_string }}</span>
-        <span><i></i> Category: </span>
+        <span><i><b>Category</b></i></span>
         <span><a href="{{ site.url }}/series#{{ page.category }}" >{{ page.category }}</a></span>
     </div>
 
