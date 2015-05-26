@@ -49,7 +49,9 @@ td{
 /*--- main style ---*/
 header{
 	overflow:auto;
-	margin: 20px 0;
+	margin: 20px auto;
+	width: 720px;
+	overflow: hidden;
 }
 header div ,header img{
 	float: left;
