@@ -9,15 +9,15 @@ title: shaomingquan	blog
             <a href="{{ site.url }}{{ post.url }}">
                 <table>
                     <tr>
-                        <td>
+                        <td class="td-date">
                             <span>{{ post.date | date_to_string }}</span>
                         </td>
-                        <td>
-                            <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+                        <td class="td-title">
+                            <span>{{ post.title }}</span>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td colspan="2">
                             <article>
                                 <p>{{ post.excerpt }}</p>
                             </article>

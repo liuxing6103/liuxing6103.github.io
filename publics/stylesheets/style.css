@@ -154,3 +154,14 @@ header a:after ,header a:before{
 	float: left;
 	width: 330px;
 }
+
+.td-date{
+	border-top:1px solid rgb(127,147,157);
+	border-left:1px solid rgb(127,147,157);
+	padding-right: 5px;
+}
+
+.td-title{
+	border-bottom:1px solid rgb(127,147,157);	
+	padding-left: 5px;
+}
