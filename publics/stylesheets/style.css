@@ -12,6 +12,10 @@ body{
   background: rgb(127,147,157);
 }
 
+p{
+	text-indent: 2em;
+}
+
 pre ,code{
 	font-family: Courier New,Arial;
 }
@@ -43,6 +47,9 @@ td{
 }
 
 /*--- main style ---*/
+header{
+	overflow:auto;
+}
 header div ,header img{
 	float: left;
 }
@@ -53,6 +60,7 @@ header div{
 
 header img{
 	width: 16%;
+	height: 63px;
 }
 
 header a{
@@ -146,15 +154,14 @@ header a:after ,header a:before{
 
 /* masonry */
 
-.container-fluid{
-	overflow: auto;
+.masonry{
 	border-bottom: 1px solid rgb(127,147,157);
 /*	padding: 20px;
 */}
 
 .box{
 	margin: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	float: left;
 	width: 330px;
 }
@@ -175,4 +182,19 @@ header a:after ,header a:before{
 	border-bottom:1px solid rgb(127,147,157);
 	border-right:1px solid rgb(127,147,157);
 	border-left:1px solid rgb(127,147,157);
+}
+
+.inline-list li{
+	display: inline-block;
+	padding: 2px 10px;
+	border-left:1px solid rgb(127,147,157); 
+}
+.inline-list li:first-child{
+	border-left: none;
+}
+footer{
+	height: 63px;
+	border-top: 1px solid rgb(127,147,157);
+	line-height: 63px;
+	text-align: center;
 }
