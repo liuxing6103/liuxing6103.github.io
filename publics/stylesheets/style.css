@@ -65,18 +65,37 @@ header a:after ,header a:before{
 	background-color: rgb(127,147,157);
 	height: 1px;
 	width: 100%;
-	left: 0;
 	bottom: 0;
 }
 
-.item-right a{	
+.item-right a{
 	float: right;
 }
 
-.item-right a:after{	
+.item-right a:before{
+	width: 50%;	
 	right: 0;
+}
+
+.item-right a:after{	
+	left: 0;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 }
 
 .item-left a{
 	float: left;
+}
+
+.item-left a:before{
+	width: 50%;
+	left: 0;
+}
+
+.item-left a:after{
+	right: 0;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 }
