@@ -148,7 +148,8 @@ header a:after ,header a:before{
 */}
 
 .box{
-	margin: 20px;
+	margin: 10px;
+	margin-bottom: 20px;
 	float: left;
 	width: 330px;
 }
