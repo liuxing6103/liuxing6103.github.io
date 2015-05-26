@@ -72,8 +72,8 @@ header a:after ,header a:before{
 .item-right a{
 	float: right;
 	padding-left: 10px;
-	padding-right: 20px;
-	margin-right: 20px;
+	padding-right: 5px;
+	margin-right: 40px;
 }
 
 .item-right a:before{
@@ -89,12 +89,13 @@ header a:after ,header a:before{
 
 .item-right a:after{	
 	left: 0;
+	width: 0;
 }
 
 .item-left a{
 	float: left;
-	margin-left: 20px;
-	padding-left: 20px;
+	margin-left: 40px;
+	padding-left: 5px;
 	padding-right: 10px;
 }
 
@@ -111,4 +112,30 @@ header a:after ,header a:before{
 
 .item-left a:after{
 	right: 0;
+	width: 0;
+}
+
+.item-right a:before,
+.item-right a:after,
+.item-left a:before,
+.item-left a:after{
+	-webkit-transition: ease-in-out 0.8s;
+	-moz-transition: ease-in-out 0.8s;
+	transition: ease-in-out 0.8s;
+}
+
+.item-right a:hover:before{
+	height: 0;
+}
+
+.item-right a:hover:after{
+	height: 100%;
+}
+
+.item-left a:hover:before{
+	height: 0;
+}
+
+.item-left a:hover:after{
+	height: 100%;
 }
