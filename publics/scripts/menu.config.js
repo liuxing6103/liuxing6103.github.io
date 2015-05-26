@@ -1,6 +1,6 @@
 (function(){
 	
 var mM = new markdownMenu("blogStage","blogMenuStage");
-mM.initDom({title:"目录"});
+mM.initDom({title:"<i>Contents</i>"});
 
 })()
