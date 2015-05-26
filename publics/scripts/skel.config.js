@@ -8,7 +8,7 @@ skel.init({
     },
     medium: {
       media: '(min-width: 480px) and (max-width: 1080px)',
-      containers : "730px",
+      containers : "720px",
       href : '/blog/publics/stylesheets/medium.css'
     },
     small: {
