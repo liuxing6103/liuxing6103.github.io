@@ -53,8 +53,8 @@ header img{
 
 header a{
 	display: block;
-	padding: 8px 20px;
-	margin: 10px 12px;
+	padding: 8px 32px;
+	margin: 10px 0;
 	position: relative;
 }
 
@@ -74,7 +74,7 @@ header a:after ,header a:before{
 
 .item-right a:before{
 	width: 50%;	
-	right: 0;
+	left: 0;
 	transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
@@ -93,10 +93,10 @@ header a:after ,header a:before{
 
 .item-left a:before{
 	width: 50%;
-	left: 0;
-	transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
+	right: 0;
+	transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
 	transform-origin: left;
 	-moz-transform-origin: left;
 	-webkit-transform-origin: left;
