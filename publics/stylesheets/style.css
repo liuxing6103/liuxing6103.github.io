@@ -75,9 +75,9 @@ header a:after ,header a:before{
 .item-right a:before{
 	width: 50%;	
 	right: 0;
-	transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-webkit-transform:rotate(-45deg);
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 	transform-origin: right;
 	-moz-transform-origin: right;
 	-webkit-transform-origin: right;
@@ -94,9 +94,9 @@ header a:after ,header a:before{
 .item-left a:before{
 	width: 50%;
 	left: 0;
-	transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-webkit-transform:rotate(-45deg);
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 	transform-origin: left;
 	-moz-transform-origin: left;
 	-webkit-transform-origin: left;
