@@ -49,6 +49,7 @@ td{
 /*--- main style ---*/
 header{
 	overflow:auto;
+	margin: 20px 0;
 }
 header div ,header img{
 	float: left;
@@ -60,7 +61,6 @@ header div{
 
 header img{
 	width: 16%;
-	height: 63px;
 }
 
 header a{
@@ -155,7 +155,6 @@ header a:after ,header a:before{
 /* masonry */
 
 .masonry{
-	border-bottom: 1px solid rgb(127,147,157);
 /*	padding: 20px;
 */}
 
@@ -194,7 +193,10 @@ header a:after ,header a:before{
 }
 footer{
 	height: 63px;
-	border-top: 1px solid rgb(127,147,157);
 	line-height: 63px;
 	text-align: center;
+}
+
+.current{
+	font-weight: bold;
 }

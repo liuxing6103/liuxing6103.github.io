@@ -33,6 +33,7 @@ title: shaomingquan	blog
 {% if paginator.total_pages > 1 %}
     <nav id="pagination">
         <ul class="inline-list">
+            <li><i>Pages:</i></li>
             {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
                     <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
