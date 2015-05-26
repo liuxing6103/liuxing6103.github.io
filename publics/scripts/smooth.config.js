@@ -12,10 +12,18 @@ links.each(function(){
 	})
 });
 
-var goTop = $("#goTop");
+var goTop = $("#gotop");
 
 goTop.click(function(){
 	$.smoothScroll({scrollTarget : 0});
+})
+
+$(window).bind("scroll" ,function(){
+	if($(window).scrollTop() > 200){
+		$("#totop").stop().animate({opacity:1});
+	}else{
+		$("#totop").stop().animate({opacity:0});
+	}
 })
 
 })()

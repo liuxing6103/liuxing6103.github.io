@@ -235,7 +235,7 @@ footer{
 #totop{
 	position:fixed;
 	cursor:pointer;
-	opcity:0;
+	opacity:0;
 	display:none;
 	left:50px;
 	bottom:50px;
