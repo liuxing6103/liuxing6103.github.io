@@ -119,9 +119,9 @@ header a:after ,header a:before{
 .item-right a:after,
 .item-left a:before,
 .item-left a:after{
-	-webkit-transition: ease-in-out 0.8s;
-	-moz-transition: ease-in-out 0.8s;
-	transition: ease-in-out 0.8s;
+	-webkit-transition: ease-in-out 0.3s;
+	-moz-transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.3s;
 }
 
 .item-right a:hover:before{
@@ -138,4 +138,16 @@ header a:after ,header a:before{
 
 .item-left a:hover:after{
 	width: 100%;
+}
+
+/* masonry */
+
+.container-fluid{
+/*	padding: 20px;
+*/}
+
+.box{
+	margin-bottom: 20px;
+	float: left;
+	width: 330px;
 }

@@ -3,19 +3,21 @@ layout: default
 title: shaomingquan	blog
 ---
 <!-- 打印本页中的blog -->
-{% for post in paginator.posts %}
-    <div>
-        <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-        <article>
-            <p>{{ post.excerpt }}</p>
-        </article>
-        <a href="{{ site.url }}{{ post.url }}"><i class="icon-link"></i></a>
-        <div>
-            <span>Published: </span>
-            <span>{{ post.date | date_to_string }}</span>
+    <div class="masonry">
+    {% for post in paginator.posts %}
+        <div class="box">
+            <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+            <article>
+                <p>{{ post.excerpt }}</p>
+            </article>
+            <a href="{{ site.url }}{{ post.url }}"><i class="icon-link"></i></a>
+            <div>
+                <span>Published: </span>
+                <span>{{ post.date | date_to_string }}</span>
+            </div>
         </div>
+    {% endfor %}
     </div>
-{% endfor %}
 
 <!-- 分页文章 -->
 {% if paginator.total_pages > 1 %}
