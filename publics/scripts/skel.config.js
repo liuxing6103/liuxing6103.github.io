@@ -3,11 +3,11 @@ skel.init({
   containers: '1030px',
   breakpoints: {
     large : {
-      media: '(min-width: 1030px)',
+      media: '(min-width: 1050px)',
       href : '/blog/publics/stylesheets/large.css'
     },
     medium: {
-      media: '(min-width: 480px) and (max-width: 1030px)',
+      media: '(min-width: 480px) and (max-width: 1050px)',
       containers : "700px",
       href : '/blog/publics/stylesheets/medium.css'
     },

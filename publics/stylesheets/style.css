@@ -147,7 +147,7 @@ header a:after ,header a:before{
 */}
 
 .box{
-	margin-bottom: 20px;
+	margin: 20px;
 	float: left;
 	width: 330px;
 }
