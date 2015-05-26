@@ -42,20 +42,41 @@ li{
 header div ,header img{
 	float: left;
 }
+
 header div{
 	width: 42%;
 }
+
 header img{
 	width: 16%;
 }
+
 header a{
 	display: block;
 	padding: 0px 20px;
 	margin: 18px 0px;
+	position: relative;
 }
+
+header a:after ,header a:before{
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: rgb(127,147,157);
+	height: 1px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
 .item-right a{	
 	float: right;
 }
+
+.item-right a:after{	
+	
+}
+
 .item-left a{
 	float: left;
 }
