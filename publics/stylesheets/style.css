@@ -53,7 +53,8 @@ header img{
 
 header a{
 	display: block;
-	padding: 8px 32px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	margin: 10px 0;
 	position: relative;
 }
@@ -70,17 +71,19 @@ header a:after ,header a:before{
 
 .item-right a{
 	float: right;
+	padding-left: 10px;
+	padding-right: 20px;
 }
 
 .item-right a:before{
 	width: 50%;	
 	left: 0;
-	transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	transform-origin: right;
-	-moz-transform-origin: right;
-	-webkit-transform-origin: right;
+	transform:rotate(-135deg);
+	-moz-transform:rotate(-135deg);
+	-webkit-transform:rotate(-135deg);
+	transform-origin: left;
+	-moz-transform-origin: left;
+	-webkit-transform-origin: left;
 }
 
 .item-right a:after{	
@@ -92,16 +95,18 @@ header a:after ,header a:before{
 }
 
 .item-left a:before{
-	width: 50%;
+	width: 45px;
 	right: 0;
-	transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-webkit-transform:rotate(-45deg);
-	transform-origin: left;
-	-moz-transform-origin: left;
-	-webkit-transform-origin: left;
+	transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
+	transform-origin: right;
+	-moz-transform-origin: right;
+	-webkit-transform-origin: right;
 }
 
 .item-left a:after{
 	right: 0;
+	padding-left: 20px;
+	padding-right: 10px;
 }
