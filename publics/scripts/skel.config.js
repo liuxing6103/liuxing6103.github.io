@@ -1,6 +1,6 @@
 skel.init({
   reset: 'normalize',
-  containers: '1030px',
+  containers: '1050px',
   breakpoints: {
     large : {
       media: '(min-width: 1050px)',
