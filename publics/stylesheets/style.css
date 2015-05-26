@@ -200,3 +200,17 @@ footer{
 .current{
 	font-weight: bold;
 }
+
+.bdsharebuttonbox a{
+	font-size: 18px;
+	margin: 5px;
+}
+
+.post-stage{
+	width: 730px;
+	margin: 0px auto;
+}
+
+#blogStage{
+	border-bottom: 1px solid rgb(127,147,157);
+}
