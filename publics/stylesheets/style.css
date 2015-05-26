@@ -201,6 +201,10 @@ footer{
 	font-weight: bold;
 }
 
+.bdsharebuttonbox{
+	margin: 10px 0;
+}
+
 .bdsharebuttonbox a{
 	font-size: 18px;
 	margin: 5px;
@@ -213,6 +217,7 @@ footer{
 
 #blogStage{
 	border-bottom: 1px solid rgb(127,147,157);
+	margin-bottom: 20px;
 }
 
 #blogStage img{
