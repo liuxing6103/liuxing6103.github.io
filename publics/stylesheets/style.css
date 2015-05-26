@@ -162,10 +162,17 @@ header a:after ,header a:before{
 .td-date{
 	border-top:1px solid rgb(127,147,157);
 	border-right:1px solid rgb(127,147,157);
+	border-left:1px solid rgb(127,147,157);
 	padding-right: 5px;
 }
 
 .td-title{
 	border-bottom:1px solid rgb(127,147,157);	
 	padding-left: 15px;
+}
+
+.td-excerpt{
+	border-bottom:1px solid rgb(127,147,157);
+	border-right:1px solid rgb(127,147,157);
+	border-left:1px solid rgb(127,147,157);
 }
