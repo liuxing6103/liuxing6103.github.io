@@ -78,9 +78,9 @@ header a:after ,header a:before{
 	transform:rotate(-45deg);
 	-moz-transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
-	transform-origin: right
-	-moz-transform-origin: right
-	-webkit-transform-origin: right
+	transform-origin: right;
+	-moz-transform-origin: right;
+	-webkit-transform-origin: right;
 }
 
 .item-right a:after{	
