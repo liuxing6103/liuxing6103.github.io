@@ -42,6 +42,10 @@ li{
 	list-style: none;
 }
 
+ul{
+  padding-left: 2em;
+}
+
 td{
 	padding: 10px;
 }
@@ -58,11 +62,11 @@ header div ,header img{
 }
 
 header div{
-	width: 42%;
+	width: 39%;
 }
 
 header img{
-	width: 16%;
+	width: 22%;
 }
 
 header a{
@@ -162,7 +166,7 @@ header a:after ,header a:before{
 
 .box{
 	margin: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	float: left;
 	width: 320px;
 }
