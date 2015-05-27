@@ -1,13 +1,19 @@
 header div ,header img{
-	float: left;
+	position: absolute;
 }
-
+.item-right{
+	left: 0px;
+}
+.item-left{
+	right: 0px;
+}
 header div{
 	width: 39%;
 }
 
 header img{
 	width: 22%;
+	left: 39%;
 }
 
 header a{

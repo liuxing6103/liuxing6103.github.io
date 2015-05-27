@@ -4,18 +4,14 @@
 	width: 100%;
 }
 header img{
-	float: left;
-	width: 22%;
+	width: 60%;
+	display: block;
 	margin: 10px auto;
-}
-header img:after{
-	clear:both;
 }
 
 .item-right a ,.item-left a{
 	margin: 10px 0;
 	display: block;
-	float: none;
 	text-align: center;
 }
 
