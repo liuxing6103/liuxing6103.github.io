@@ -11,6 +11,10 @@ header div{
 	width: 39%;
 }
 
+header{
+	width: 720px;
+}
+
 header img{
 	width: 22%;
 	left: 39%;
