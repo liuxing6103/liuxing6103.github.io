@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Categories
+title: shaomingquan - Blog - Categories
 ---
 <div class="category-stage">
-<h3>{{ page.title }}</h3>
+<h2>Blog - Categories</h2>
 <!-- 导航 -->
 <ul class="inline-list" id="categoryNav">
 {% assign categories_list = site.categories %}
@@ -17,7 +17,7 @@ title: Categories
 <!-- 列表 -->
 <div>
 {% for category in site.categories %} 
-<h2 id="{{ category[0] }}" name="{{ category[0] }}" data-year="&diams;">{{ category[0] | join: "/" }}</h2>
+<h3 id="{{ category[0] }}" name="{{ category[0] }}" data-year="&diams;">{{ category[0] | join: "/" }}</h3>
 <ul style="list-style: none">
   {% assign pages_list = category[1] %}  
   {% for node in pages_list %}
