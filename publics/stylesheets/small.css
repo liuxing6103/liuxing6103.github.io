@@ -30,3 +30,9 @@ header img{
 .item-left a:after{
 	display: none;
 }
+
+.post-stage, .category-stage {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 6%;
+}

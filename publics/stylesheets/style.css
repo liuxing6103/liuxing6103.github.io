@@ -110,11 +110,6 @@ footer{
 	margin: 5px;
 }
 
-.post-stage ,.category-stage{
-	width: 720px;
-	margin: 0px auto;
-}
-
 #blogStage{
 	border-bottom: 1px solid rgb(127,147,157);
 	margin-bottom: 20px;
