@@ -12,10 +12,6 @@ body{
   background: rgb(127,147,157);
 }
 
-p{
-	text-indent: 2em;
-}
-
 pre ,code{
 	font-family: Courier New,Arial;
 }
@@ -48,6 +44,10 @@ ul{
 
 td{
 	padding: 10px;
+}
+
+blockquote p {
+   text-indent: 2em; 
 }
 
 /*--- main style ---*/
