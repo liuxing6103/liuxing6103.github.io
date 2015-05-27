@@ -97,8 +97,8 @@ footer{
 	text-align: center;
 }
 
-.current{
-	font-weight: bold;
+.current a{
+	text-decoration: underline;
 }
 
 .bdsharebuttonbox{
