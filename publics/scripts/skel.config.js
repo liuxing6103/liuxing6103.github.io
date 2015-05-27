@@ -9,7 +9,7 @@ skel.init({
     medium: {
       media: '(min-width: 480px) and (max-width: 1080px)',
       containers : "720px",
-      href : '/blog/publics/stylesheets/medium.css'
+      href : '/blog/publics/stylesheets/large.css'
     },
     small: {
       media: '(max-width: 480px)',
