@@ -1,0 +1,20 @@
+.item-right a ,.item-left a{
+	margin: 10px 0;
+	display: block;
+}
+
+.item-right a:before{
+	display: none;
+}
+
+.item-right a:after{	
+	display: none;
+}
+
+.item-left a:before{
+	display: none;
+}
+
+.item-left a:after{
+	display: none;
+}

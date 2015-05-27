@@ -18,7 +18,3 @@ skel.init({
     }
   }
 });
-
-skel.on('+small', function() {
-    $(".box").css("width" ,"100%");
-});
