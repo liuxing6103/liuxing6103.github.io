@@ -123,14 +123,7 @@ header a:after ,header a:before{
 	margin: 0px auto;
 }
 
-h1{
-	font-size: 26px !important;
-}
-
-h2{
-	font-size: 18px !important;
-}
-
-h3{
-	font-size: 16px !important;
+#totop{
+	left:50px;
+	bottom:50px;
 }

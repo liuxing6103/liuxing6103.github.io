@@ -36,3 +36,20 @@ header img{
   margin: 0px auto;
   padding: 0px 6%;
 }
+
+#totop{
+	left:0px;
+	bottom:0px;
+}
+
+h1{
+	font-size: 26px !important;
+}
+
+h2{
+	font-size: 18px !important;
+}
+
+h3{
+	font-size: 16px !important;
+}

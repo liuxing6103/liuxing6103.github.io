@@ -124,8 +124,6 @@ footer{
 	cursor:pointer;
 	opacity:0;
 	display:none;
-	left:50px;
-	bottom:50px;
 	width:56px;
 	height:56px;
 	background-image:url("../images/totop.png");
