@@ -40,7 +40,7 @@ category: "other"
 
 promise是一种标准，不过各种库的函数名有所不同，有时promise也叫deferred模式，下面介绍几个库里面的应用和具体的简单实现。
 
-####jQuery的deferred
+###jQuery的deferred
 
 jQuery里面有一个deferred对象，实现了promise。
 
