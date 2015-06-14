@@ -1,6 +1,6 @@
-baseurl: /blog
+baseurl: /
 
-url: /blog
+url: /
 
 paginate: 8
 
