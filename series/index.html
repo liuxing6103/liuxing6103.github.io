@@ -23,7 +23,7 @@ title: shaomingquan - Blog - Categories
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-          <li><span>{{ node.date | date_to_string }}</span>&raquo;<a href="{{ site.url }}{{node.url}}">{{node.title}}</a></li>
+          <li><span>{{ node.date | date_to_string }}</span>&raquo;<a href="{{node.url}}">{{node.title}}</a></li>
       {% endif %}
     {% endif %}
   {% endfor %}

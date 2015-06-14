@@ -8,7 +8,7 @@ layout: default
         <span><i><b>Published</b></i></span>
         <span>{{ page.date | date_to_string }}</span>
         <span><i><b>Category</b></i></span>
-        <span><a href="{{ site.url }}/series#{{ page.category }}" >{{ page.category }}</a></span>
+        <span><a href="/series#{{ page.category }}" >{{ page.category }}</a></span>
     </div>
 
     <!-- content -->
@@ -83,6 +83,6 @@ layout: default
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
-<script src="{{ site.url }}/publics/scripts/menu.config.js"></script>
-<script src="{{ site.url }}/publics/scripts/highlight.config.js"></script>
-<link rel="stylesheet" href="{{ site.url }}/publics/stylesheets/highlight.css">
+<script src="/publics/scripts/menu.config.js"></script>
+<script src="/publics/scripts/highlight.config.js"></script>
+<link rel="stylesheet" href="/publics/stylesheets/highlight.css">
