@@ -1,3 +1,11 @@
+---
+layout: post
+category: "other"
+---
+
+react-canvas是什么呢？光看名字就知道这是跟react和canvas相关的。在普通的dom中我们可以使用react，也可以使用react-nitive制作app。使用react-canvas，我们使用react技术渲染canvas。
+
+
 # react-canvas试用感想
 
 
