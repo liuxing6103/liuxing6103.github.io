@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>method 1</title>
+    <title>float</title>
+    <meta charset="utf-8"/>
     <style>
-        .content{
-            width: 100px;
-            height: 100px;
-            background: #999;
-            margin: 0 auto;
+        .wrapper{
+            padding: 10px;
+            background: #cccccc;
+            overflow: auto;
         }
-        .pa{
-            position: absolute;
+        .content{
+            height: 100px;
+            width: 100px;
+            background: #999;
+            float: left;
         }
     </style>
 </head>
-    <div class="content"></div>
-    <div class="content pa"></div>
-    <div class="content"></div>
-    <div class="content"></div>
+    <div class="wrapper">
+        <div class="content"></div>
+    </div>
 </html>
