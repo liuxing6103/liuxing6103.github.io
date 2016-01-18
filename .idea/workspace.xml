@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f76f02ee-d517-49eb-847f-4876f9fd4d24" name="Default" comment="" />
+    <list default="true" id="f76f02ee-d517-49eb-847f-4876f9fd4d24" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md" afterPath="$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md" />
+    </list>
     <ignored path="shaomingquan.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-7-20-试水模块加载器搭建.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-7-20-试水模块加载器搭建.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/others/2015-7-20-试水模块加载器搭建.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3382353">
+            <state vertical-scroll-proportion="-2.9814816">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -111,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-8-5-代理服务器.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2015-8-5-代理服务器.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.7777777">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3181818">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -130,6 +132,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_posts/others/2015-7-20-试水模块加载器搭建.md" />
+        <option value="$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md" />
       </list>
     </option>
   </component>
@@ -267,7 +270,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33012047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,18 +418,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md">
+    <entry file="file://$PROJECT_DIR$/_posts/others/2015-7-20-试水模块加载器搭建.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.7777777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.9814816">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/others/2015-7-20-试水模块加载器搭建.md">
+    <entry file="file://$PROJECT_DIR$/_posts/others/2015-8-5-代理服务器.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3382353">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3181818">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
