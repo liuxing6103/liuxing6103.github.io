@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76f02ee-d517-49eb-847f-4876f9fd4d24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/2015-10-5-margin重叠原理利弊.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/2015-10-5-前端中的动画编写.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/2015-10-6-前端面试高频考点之-css.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/2015-10-6-论样式的优先级.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/haha.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/css/import.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/css/method7.table.html" afterPath="$PROJECT_DIR$/_posts/css/method7.table.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,50 +28,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015-3-12-基于文件系统和Express的博客.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/node/2015-3-12-基于文件系统和Express的博客.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-10-2-水平垂直居中的7种实现方案.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-2-水平垂直居中的7种实现方案.md">
+      <file leaf-file-name="2015-10-3-css中各种定位方式的区别.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-3-css中各种定位方式的区别.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+              <first_editor vertical-scroll-proportion="0.15856236">
+                <caret line="5" column="15" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="15" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method7.table.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/css/method7.table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33407572">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,8 +51,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="1.4122622">
-                <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.15856236">
+                <caret line="5" column="14" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -97,8 +67,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.22198732">
+                <caret line="7" column="10" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,8 +83,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.15856236">
+                <caret line="5" column="9" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -122,18 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-10-3-css中各种定位方式的区别.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-3-css中各种定位方式的区别.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8731501">
-                <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="2015-10-6-论样式的优先级.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-6-论样式的优先级.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19886364">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,6 +108,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -161,7 +126,11 @@
         <option value="$PROJECT_DIR$/_posts/css/2015-10-3-css中各种定位方式的区别.md" />
         <option value="$PROJECT_DIR$/_posts/css/2015-10-5-清除浮动的方案.md" />
         <option value="$PROJECT_DIR$/_posts/css/2015-10-5-margin重叠原理利弊.md" />
+        <option value="$PROJECT_DIR$/_posts/css/2015-10-6-论样式的优先级.md" />
+        <option value="$PROJECT_DIR$/_posts/css/import.css" />
+        <option value="$PROJECT_DIR$/_posts/css/haha.css" />
         <option value="$PROJECT_DIR$/_posts/css/method7.table.html" />
+        <option value="$PROJECT_DIR$/_posts/css/2015-10-6-前端面试高频考点之-css.md" />
       </list>
     </option>
   </component>
@@ -279,6 +248,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -723,20 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-3-css中各种定位方式的区别.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8731501">
-            <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/css/视差滚动那点事.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -745,20 +701,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-2-水平垂直居中的7种实现方案.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -799,28 +741,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-5-前端中的动画编写.md">
+    <entry file="file://$PROJECT_DIR$/_posts/css/import.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028409092">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/haha.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/method7.table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.701559">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-6-前端面试高频考点之-css.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.09513742">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-5-清除浮动的方案.md">
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-2-水平垂直居中的7种实现方案.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.17942584">
+            <caret line="5" column="15" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-3-css中各种定位方式的区别.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.15856236">
+            <caret line="5" column="15" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
@@ -833,18 +813,46 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="1.4122622">
-            <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.15856236">
+            <caret line="5" column="14" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/css/method7.table.html">
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-5-前端中的动画编写.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.22198732">
+            <caret line="7" column="10" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-5-清除浮动的方案.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.15856236">
+            <caret line="5" column="9" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/css/2015-10-6-论样式的优先级.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33407572">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.19886364">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
