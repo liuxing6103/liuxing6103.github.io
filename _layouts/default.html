@@ -1,59 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<!-- libs -->
-	<script src="/publics/scripts/libs/skel.min.js"></script>
-	<script src="/publics/scripts/libs/jquery-1.11.2.min.js"></script>
-	<script src="/publics/scripts/libs/jquery.smooth-scroll.min.js"></script>
-	<script src="/publics/scripts/libs/markdownMenu.js"></script>
-	<script src="/publics/scripts/libs/highlight.pack.js"></script>
-	<script src="/publics/scripts/libs/masonry.pkgd.min.js"></script>
-
-	<!-- responsive config -->
-	<script src="/publics/scripts/skel.config.js"></script>
-
-	<!-- style -->
-	<link rel="stylesheet" href="/publics/stylesheets/normalize.css">
-	<link rel="stylesheet" href="/publics/stylesheets/style.css">
-	<link rel="stylesheet" href="/publics/stylesheets/icon.css">
-
-	<!-- baidu statistics -->
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?{{ site.baiduStatistics.id }}";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-	<title>{{ page.title }}</title>
-</head>
-<body>
-	<div id="top"></div>
-	<section class="container">
-		<div id="totop"></div>
-		<header>
-			<img src="/publics/images/logos/logo4.gif" alt="">
-			<div class="item-right">
-				<a href="/series">&nbsp;series&nbsp;</a>
-				<a href="/">&nbsp;posts&nbsp;&nbsp;</a>
-			</div>
-			<div class="item-left">
-				<a href="/contacts">contacts&nbsp;</a>
-				<a href="">subscribe</a>
-			</div>
-		</header>
-		<section>
-　　		{{ content }}
-		</section>
-		<!-- smooth config -->
-		<script src="/publics/scripts/smooth.config.js"></script>
-		<script src="/publics/scripts/masonry.config.js"></script>
-
-		<footer><a  class="icon-github4" href="http://www.github.com/shaomingquan">shaomingquan</a></footer>
-	</section>
+<html lang="en">
+{% include head.html %}
+<body style="background: url('{{ site.baseurl }}/resources/images/main_front.jpg') no-repeat fixed;
+                            background-size: cover">
+<div id="wrapper">
+    <header>
+    {% include header.html %}
+    </header>
+    <main id="start">
+        {{ content }}
+    </main>
+    {% include paginator.html %}
+    <footer>
+        {% include footer.html %}
+    </footer>
+</div>
+{% if site.disqus %}
+<script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+{% endif %}
 </body>
 </html>

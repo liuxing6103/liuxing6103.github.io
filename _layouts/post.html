@@ -1,88 +1,16 @@
 ---
 layout: default
 ---
-<div class="post-stage">
-    <!-- 标题，日期，分类 -->
-    <h2>{{ page.title }}</h2>
-    <div>
-        <span><i><b>Published</b></i></span>
-        <span>{{ page.date | date_to_string }}</span>
-        <span><i><b>Category</b></i></span>
-        <span><a href="/series#{{ page.category }}" >{{ page.category }}</a></span>
-    </div>
 
-    <!-- content -->
-    <div id="blogMenuStage"></div>
-
-    <!-- 内容区 -->
-    <div id="blogStage">
-        {{ content }}
-    </div>
-
-    <!-- 上一篇，下一篇 -->
-    <nav>
-        {% if page.previous %}
-        <a class="prev" href="{{site.url}}{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+<article>
+    <header>
+        {% include title.html %}
+        {% include post_meta.html %}
+    </header>
+    {{ page.content }}
+    <footer>
+        {% if page.comments %}
+        {% include disqus.html %}
         {% endif %}
-
-        {% if page.next %}
-        <a style="float:right" class="next" href="{{site.url}}{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
-        {% endif %}
-    </nav>
-
-    <!-- 相关文章 -->
-    <div>
-    <h2>Related Posts</h2>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    </div>
-
-    <!-- 分享功能 -->
-    <!-- JiaThis Button BEGIN -->
-    <div class="jiathis_style">
-        <a class="jiathis_button_qzone"></a>
-        <a class="jiathis_button_tsina"></a>
-        <a class="jiathis_button_tqq"></a>
-        <a class="jiathis_button_weixin"></a>
-        <a class="jiathis_button_renren"></a>
-        <a class="jiathis_button_xiaoyou"></a>
-        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-        <a class="jiathis_counter_style"></a>
-    </div>
-    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-    <!-- JiaThis Button END -->
-
-    <!-- 评论功能 -->
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = '{{ site.disqus.id }}';
-        
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
-
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = '{{ site.disqus.id }}';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-<script src="/publics/scripts/menu.config.js"></script>
-<script src="/publics/scripts/highlight.config.js"></script>
-<link rel="stylesheet" href="/publics/stylesheets/highlight.css">
+    </footer>
+</article>
