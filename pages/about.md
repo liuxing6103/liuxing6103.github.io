@@ -15,7 +15,6 @@ description: More information about me and this website.
 <p>技能: 掌握javascript，css。熟悉前端编程主流框架，熟悉node平台，有后端开发经验。</p>
 <p>github ID: <a target="_blank" href="http://github.com/shaomingquan">shaomingquan</a></p>
 <p>blog: <a target="_blank" href="http://mqshao.com">mqshao.com</a></p>
-<p>大学期间平均成绩: 80</p>
 
 ## 语言
 
