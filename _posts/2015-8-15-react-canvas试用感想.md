@@ -1,14 +1,12 @@
 ---
 layout: post
-category: "other"
+title: react-canvas试用感想
+category: css
+comments: true
+tags:
+    - react
 ---
-
 react-canvas是什么呢？光看名字就知道这是跟react和canvas相关的。在普通的dom中我们可以使用react，也可以使用react-nitive制作app。使用react-canvas，我们使用react技术渲染canvas。
-
-
-# react-canvas试用感想
-
-
 
 ##是什么？能做什么？
 
@@ -30,56 +28,60 @@ react-canvas是什么呢？光看名字就知道这是跟react和canvas相关的
 
 看一个官网的demo。
 
-    var React = require('react');
-    var ReactCanvas = require('react-canvas');
+<div class="highlighter-header">JS</div>
 
-    var Surface = ReactCanvas.Surface;
-    var Image = ReactCanvas.Image;
-    var Text = ReactCanvas.Text;
+{% highlight javascript linenos %}
+var React = require('react');
+var ReactCanvas = require('react-canvas');
 
-    var MyComponent = React.createClass({
+var Surface = ReactCanvas.Surface;
+var Image = ReactCanvas.Image;
+var Text = ReactCanvas.Text;
 
-      render: function () {
-        var surfaceWidth = window.innerWidth;
-        var surfaceHeight = window.innerHeight;
-        var imageStyle = this.getImageStyle();
-        var textStyle = this.getTextStyle();
+var MyComponent = React.createClass({
 
-        return (
-          <Surface width={surfaceWidth} height={surfaceHeight} left={0} top={0}>
-            <Image style={imageStyle} src='...' />
-            <Text style={textStyle}>
-              Here is some text below an image.
-            </Text>
-          </Surface>
-        );
-      },
+  render: function () {
+    var surfaceWidth = window.innerWidth;
+    var surfaceHeight = window.innerHeight;
+    var imageStyle = this.getImageStyle();
+    var textStyle = this.getTextStyle();
 
-      getImageHeight: function () {
-        return Math.round(window.innerHeight / 2);
-      },
+    return (
+      <Surface width={surfaceWidth} height={surfaceHeight} left={0} top={0}>
+        <Image style={imageStyle} src='...' />
+        <Text style={textStyle}>
+          Here is some text below an image.
+        </Text>
+      </Surface>
+    );
+  },
 
-      getImageStyle: function () {
-        return {
-          top: 0,
-          left: 0,
-          width: window.innerWidth,
-          height: this.getImageHeight()
-        };
-      },
+  getImageHeight: function () {
+    return Math.round(window.innerHeight / 2);
+  },
 
-      getTextStyle: function () {
-        return {
-          top: this.getImageHeight() + 10,
-          left: 0,
-          width: window.innerWidth,
-          height: 20,
-          lineHeight: 20,
-          fontSize: 12
-        };
-      }
+  getImageStyle: function () {
+    return {
+      top: 0,
+      left: 0,
+      width: window.innerWidth,
+      height: this.getImageHeight()
+    };
+  },
 
-    });
+  getTextStyle: function () {
+    return {
+      top: this.getImageHeight() + 10,
+      left: 0,
+      width: window.innerWidth,
+      height: 20,
+      lineHeight: 20,
+      fontSize: 12
+    };
+  }
+
+});
+{% endhighlight%}
 
 首先拿到react以及react-canvas，然后拿到项目里需要的react-canvas组件。这里使用了surface，image，text组件（component）。
 

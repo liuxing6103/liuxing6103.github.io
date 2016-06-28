@@ -4,7 +4,7 @@ title: webpack开发与生产环境的差异
 category: js
 comments: true
 tags:
-    - Jekyll
+    - webpack
 ---
 
 webpack学习请访问webpack官网以及github。跟seajs和requirejs类似，webpack解决前端模块化以及依赖管理，webpack支持commonJS和AMD。与seajs等不同的是，webpack最终部署的项目是各种文件经过编译成的一个或者多个软件包，seajs等直接部署配置文件库文件等。
@@ -20,6 +20,9 @@ webpack的开发模式和生产环境应做较大的区分。事实上所有的�
 ### 区分环境
 
 使用`process.env.NODE_ENV`区分生产环境还是开发环境，需要设置环境变量来设置这个值，可以使用export命令来设置环境变量，但是无法跨平台。注意使用npm script中的`cross-env`命令进行**跨平台的环境变量设置**，像这样`cross-env NODE_ENV=production`。在npm script中指定环境变量，在程序中即可区分环境的不同选择不同的配置。如下伪代码，使用一个`webpackBaseConfig`保存公共配置。分别编写开发环境和发布环境的独有配置，使用Object.assign覆盖基础配置，得到最终配置。
+<div class="highlighter-header">JS</div>
+
+{% highlight javascript linenos %}
 
 ```
 var webpackBaseConfig = {...};
@@ -34,6 +37,7 @@ if(process.env.NODE_ENV === 'product') {
 }
 module.exports = webpackConfig;
 ```
+{% endhighlight%}
 
 另外可以使用npm中的[config](https://www.npmjs.com/package/config)工具来管理node项目配置。
 
@@ -47,6 +51,9 @@ module.exports = webpackConfig;
 - 使用webpack的[CODE SPLITTING](http://webpack.github.io/docs/code-splitting.html)技术合理加入代码分割点，避免编译出的软件包的过大。
 - 使用`UglifyJsPlugin`对js进行压缩，可以缩小至原来的五分之一，生产环境必备。
 - 在`HtmlWebpackPlugin`中配置minify参数，对html进行压缩，效果不大，情怀至上= =。
+<div class="highlighter-header">JS</div>
+
+{% highlight javascript linenos %}
 
 ```
 new HtmlWebpackPlugin({
@@ -60,9 +67,14 @@ new HtmlWebpackPlugin({
 	}
 })
 ```
+{% endhighlight%}
+
 #### 去除warning
 
 warning代表不良的框架或者库的使用，框架开发者为了推进技术而对使用者做出的提醒，不影响系统的使用。在开发过程中难免有暂时无法解决的warning，即便无warning，在生成环境中避免warning检查仍然很必要。使用`DefinePlugin`插件可以去掉react中的warning。加入变量之后react会做判断，如果是production环境则不打印warning。
+<div class="highlighter-header">JS</div>
+
+{% highlight javascript linenos %}
 
 ```
 new DefinePlugin({
@@ -71,6 +83,7 @@ new DefinePlugin({
 	}
 }),
 ```
+{% endhighlight%}
 
 ### 开发环境
 
