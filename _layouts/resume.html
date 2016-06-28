@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=2.0" />
     <title>shaomingquan resume</title>
+    <script>
+        if(window.screen.width < 476) {
+            location.href = '/pages/about.html';
+        }
+    </script>
     <link rel="stylesheet" href="{{ site.baseurl }}/resources/resume/index.css"/>
 </head>
 <body>
@@ -70,10 +75,6 @@
             var hash = location.hash.substring(1);
             eval('animation' + hash + '()');
         }
-    }
-
-    if(window.screen.width < 476) {
-        location.href = '/pages/about.html';
     }
     setTimeout(function() {
         animationStart();
