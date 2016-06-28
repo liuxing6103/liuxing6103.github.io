@@ -70,6 +70,7 @@ html ,body{
     font-size: 18px;
     padding: 6px 40px;
     line-height: 1.3em;
+    padding-right: 160px;
 }
 
 .section a {
