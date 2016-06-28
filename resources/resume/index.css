@@ -15,7 +15,7 @@ html ,body{
     height: 100%;
     width: 100%;
     position: absolute;
-
+    overflow: scroll;
 }
 #main ,.section ,.section div{
     -webkit-transition: all 1s;
