@@ -56,18 +56,18 @@ html ,body{
 }
 .section h1{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 36px;
     padding: 20px;
 }
 
 .section h2{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     padding: 8px 30px;
 }
 
 .section p{
-    font-size: 12px;
+    font-size: 18px;
     padding: 6px 40px;
     line-height: 1.3em;
 }
@@ -79,7 +79,7 @@ html ,body{
     border-radius:4px;
     background-color: #ffffff;
     color: #99a;
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
 }
 
