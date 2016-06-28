@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76f02ee-d517-49eb-847f-4876f9fd4d24" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-06-08-aliquam-post-example.md" afterPath="$PROJECT_DIR$/_posts/aliquam-post-example.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异" afterPath="$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-15-BFC什么鬼.md" afterPath="$PROJECT_DIR$/_posts/2015-10-15-BFC什么鬼.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-6-彻底讨论样式的优先级.md" afterPath="$PROJECT_DIR$/_posts/2015-10-6-彻底讨论样式的优先级.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-2-20-视差滚动的几种实现方案" afterPath="$PROJECT_DIR$/_posts/2015-2-20-视差滚动的几种实现方案" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-7-30-“远古的”web实时通信技术.md" afterPath="$PROJECT_DIR$/_posts/2015-7-30-“远古的”web实时通信技术.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-8-15-react-canvas试用感想.md" afterPath="$PROJECT_DIR$/_posts/2015-8-15-react-canvas试用感想.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-4-3-三十行概述koa核心实现.md" afterPath="$PROJECT_DIR$/_posts/2016-4-3-三十行概述koa核心实现.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异" afterPath="$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异" />
     </list>
     <ignored path="shaomingquan.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,14 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-6-16-webpack开发与生产环境的差异" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异">
+      <file leaf-file-name="2016-6-16-webpack开发与生产环境的差异.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
+              <first_editor relative-caret-position="114">
                 <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
                 <folding />
               </first_editor>
@@ -155,14 +148,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-7-30-“远古的”web实时通信技术.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-7-30-“远古的”web实时通信技术.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-7-30-“远古的”web实时通信技术.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-171">
+              <first_editor relative-caret-position="38">
                 <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
                 <folding />
               </first_editor>
@@ -429,12 +422,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1438486777191</updated>
-      <workItem from="1467037571939" duration="8844000" />
+      <workItem from="1467037571939" duration="9187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8844000" />
+    <option name="totallyTimeSpent" value="9187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1031,20 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-10-6-彻底讨论样式的优先级.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -1107,8 +1086,22 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-171">
+          <first_editor relative-caret-position="38">
             <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-6-16-webpack开发与生产环境的差异.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
