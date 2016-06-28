@@ -71,6 +71,10 @@
             eval('animation' + hash + '()');
         }
     }
+
+    if(window.screen.width < 476) {
+        location.href = '/about';
+    }
     setTimeout(function() {
         animationStart();
         setTimeout(function() {
