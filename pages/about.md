@@ -21,19 +21,19 @@ description: More information about me and this website.
 
 <div id="skills">
 <div>
-<p><span>js</span><span>95%</span></p>
+<p><span>js</span><span>90%</span></p>
 <progress value="90" max="100"></progress>
 </div>
 <div>
-<p><span>css</span><span>95%</span></p>
+<p><span>css</span><span>80%</span></p>
 <progress value="80" max="100"></progress>
 </div>
 <div>
-<p><span>java</span><span>20%</span></p>
+<p><span>java</span><span>10%</span></p>
 <progress value="10" max="100"></progress>
 </div>
 <div>
-<p><span>php</span><span>20%</span></p>
+<p><span>php</span><span>10%</span></p>
 <progress value="10" max="100"></progress>
 </div>
 </div>
