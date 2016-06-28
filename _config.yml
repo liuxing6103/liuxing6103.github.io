@@ -23,8 +23,8 @@ punch-line: true
 
 # Your logo for the header
 logo:
-  title: John Doe
-  subtitle: Designer & Developer
+  title: Shaomingquan
+  subtitle: Web Developer
 
 include:
   - pages
