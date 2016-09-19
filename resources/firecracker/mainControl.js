@@ -77,10 +77,10 @@
             }
             @keyframes customaaaa {
                 ${frames.map(function (frame) {
-                    return `
+            return `
                         ${frame.percantage}${frame.anim}
                     `;
-                }).join('\n')}
+        }).join('\n')}
             }`;
 
         return cssText;
@@ -131,6 +131,9 @@
             frames = mergeInterval(frames, stageFrame);
             //make frame arr to css text
             var cssText = assembleToCss(frames, options);
+
+            //write output
+            document.querySelector('.firecracker-output').innerHTML = cssText;
             //go go go
             runAnim(baseItem, cssText, frames.allDuring);
         }
