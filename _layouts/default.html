@@ -1,22 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<body style="background: url('{{ site.baseurl }}/resources/images/main_front.jpg') no-repeat fixed;
-                            background-size: cover">
-<div id="wrapper">
-    <header>
-    {% include header.html %}
-    </header>
-    <main id="start">
-        {{ content }}
-    </main>
-    {% include paginator.html %}
-    <footer>
-        {% include footer.html %}
-    </footer>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ::-webkit-scrollbar              {
+            display: none;
+        }
+        ::-webkit-scrollbar-button       {
+            display: none;
+        }
+        ::-webkit-scrollbar-track        {
+            display: none;
+        }
+        ::-webkit-scrollbar-track-piece  {
+            display: none;
+        }
+        ::-webkit-scrollbar-thumb        {
+            display: none;
+        }`
+        ::-webkit-scrollbar-corner       {
+            display: none;
+        }
+        ::-webkit-resizer                {
+            display: none;
+        }
+        body, html {
+            height: 100%;
+            padding:0;
+            margin:0;
+        }
+        img {
+            position: fixed;
+            left: 30px;
+            top: 30px;
+            height: 80px;
+            width: 80px;
+            border: 3px solid #de533a;
+            border-radius: 50%;
+        }
+        a:link{
+            font-size: 64px;
+            color: #000;
+            text-decoration: none;
+        }
+        a:visited{
+            font-size: 64px;
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover {
+
+        }
+        a:active {
+
+        }
+        .card-inner {
+            height: 180pt;
+            width: 750pt;
+            position: absolute;
+            left: auto;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            border:1px solid #333;
+            border-radius: 6px;
+            background-color: white;
+            transform: translate(-50%, -50%);
+            line-height: 180pt;
+            text-align: center;
+        }
+        .card {
+            height: 0px;
+            width: 0px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.jianshu.com/users/3b3a1cd910ce/latest_articles" target="_blank">
+    <img src="http://upload.jianshu.io/users/upload_avatars/2218079/effdc3276e7b.jpg?imageMogr/thumbnail/90x90/quality/100" alt="">
+</a>
+
+<div class="card">
+    <div class="card-inner">
+        <a target="_blank" href="http://www.jianshu.com/p/21f58488e71a">javascript proxy&amp;reflect</a>
+    </div>
 </div>
-{% if site.disqus %}
-<script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
-{% endif %}
+
+<div class="card">
+    <div class="card-inner">
+        <a target="_blank" href="http://www.jianshu.com/p/afacd86d90f9">co in a nutshell</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <a target="_blank" href="http://www.jianshu.com/p/a3758e96fe23">Parallax Scrolling</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <a target="_blank" href="http://www.jianshu.com/p/00bf1319de1c">webpack DEV vs PRODUCT</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <a target="_blank" href="http://www.jianshu.com/p/96e12925a68d">30lines koa midware core</a>
+    </div>
+</div>
+
+<script>
+
+    document.addEventListener('scroll', function (e) {
+        invoke(document.body.scrollTop);
+    });
+
+    var everyCardHasXXXframes = 600;
+    var cards = document.getElementsByClassName('card');
+    var bodyHeight = everyCardHasXXXframes * (cards.length + 0.2);
+    document.body.style.height = bodyHeight + 'px';
+
+    function invoke(cs) {
+        [].forEach.call(cards, function (card) {
+            story.call(card, cs);
+            cs -= everyCardHasXXXframes;
+        })
+    }
+
+    var maxTranslateX = -500;
+    var minScale = 0.2;
+    var focusedCard = null;
+    function story(frame) {
+        //-300 ~ 300
+        var card = this;
+        var opacity = 1;
+        var scale = 1;
+        var translateX = 0;
+        var percentage = 0;
+        var display = true;
+
+        if(frame > 100) {
+            //100 ~ 350 向左并且淡出。
+            percentage = (frame - 100) / (350 - 100);
+            opacity = 1 - percentage * 1;
+            translateX = maxTranslateX * percentage;
+        }
+
+        if(frame < -100) {
+            //-350 ~ -100 放大并淡入。
+            percentage = (frame - -100) / (-340 - -100);
+            opacity = 1 - percentage * 1;
+            scale = minScale + (1 - percentage) * (1 - minScale);
+        }
+
+        if(frame <= -340 || frame >= 340) {
+            display = false;
+        }
+
+        composeCss ();
+        function composeCss () {
+            if(!display) {
+                card.style.display = 'none';
+                return ;
+            }
+            card.style.display = 'block';
+            card.style.opacity = opacity;
+            card.style.transform = 'translateX(' + translateX + 'px) scale(' + scale + ')';
+        }
+    }
+
+
+</script>
 </body>
 </html>
