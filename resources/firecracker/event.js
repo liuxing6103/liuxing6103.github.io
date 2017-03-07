@@ -41,5 +41,3 @@
     }
 
 }) (window);
-
-var panelDom2 = 9；
