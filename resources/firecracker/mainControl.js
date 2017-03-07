@@ -77,10 +77,10 @@
             }
             @keyframes customaaaa {
                 ${frames.map(function (frame) {
-                    return `
+            return `
                         ${frame.percantage}${frame.anim}
                     `;
-                }).join('\n')}
+        }).join('\n')}
             }`;
 
         return cssText;
