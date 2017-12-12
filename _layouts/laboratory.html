@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body, html {
+      padding: 0;
+      margin: 0;
+    }
+      body {
+        font-size: 13px;
+        color: #666;
+        font-family: Consolas, Monaco, monospace;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li::before {
+        content: '🍭 ';
+        font-size: 16px;
+        vertical-align: text-top;
+      }
+      li > a {
+        padding: 1px 2px;
+        text-decoration: none;
+        border-bottom: 1px dashed #aaa;
+      }
+      .demo {
+        font-size: 12px;
+        padding: 1px 4px;
+        border-radius: 3px;
+        background: #999;
+        display: inline-block;
+        transform: scale(0.85);
+      }
+      .demo a {
+        color: white;
+        text-decoration: none;
+      }
+      .wrapper {
+        padding: 20px;
+        box-sizing: border-box;
+        position: absolute;
+      }
+      .div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        width: 100%;
+        height: 1px;
+        border-top: 1px dashed #bbb;
+      }
+      .div::before, .div::after {
+        content: '✂️';
+        position: absolute;
+        display: block;
+        top: -11px;
+      }
+      .div::before {
+        left: -14px;
+        transform: rotate(-90deg);
+      }
+      .div::after {
+        right: -14px;
+        transform: rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul>
+        <li>
+          超轻便<a target="_blank" href="https://github.com/shaomingquan/mdmd">markdown写作工具</a>，
+          是目前<b><i>唯一</i></b>会持续更新的开源项目。
+        </li>
+        <li>
+          帮助你快速生成<code>@keyframe</code>多帧动画代码，名谓<a target="_blank" href="https://github.com/shaomingquan/firecracker">firecracker</a>。
+          <span class="demo"><a target="_blank" href="http://shaomingquan.github.io/firecracker/">DEMO</a></span>
+        </li>
+        <li>
+          大三时为了面试准备的<a target="_blank" href="https://github.com/shaomingquan/schemer">lisp解释器</a>。
+          <span class="demo"><a target="_blank" href="http://shaomingquan.github.io/funcfunc/">DEMO</a></span>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/shaomingquan/charPainting">生成字符画</a>，基于颜色的，简单粗暴有趣。
+          <span class="demo"><a target="_blank" href="http://shaomingquan.github.io/charpainting/">DEMO</a></span>
+        </li>
+        <li>
+          大学时在社团给学弟留的作业题，<a href="https://github.com/shaomingquan/memoryGame">一个翻牌记忆游戏</a>，我打了个样儿，挺萌的。
+          <span class="demo"><a target="_blank" href="http://shaomingquan.github.io/memgame/">DEMO</a></span>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/shaomingquan/rgbaCanvasColorPicker">基于canvas的颜色选择器</a>，所见即所得。
+          <span class="demo"><a target="_blank" href="http://shaomingquan.github.io/canvascolorpicker/">DEMO</a></span>
+        </li>
+      </ul>
+      <div class="div"></div>
+      <ul>
+        <li>WeChat: 1218525419 (欢迎反馈)。</li>
+      </ul>
+    </div>
+  </body>
+</html>
