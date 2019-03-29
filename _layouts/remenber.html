@@ -40,11 +40,11 @@
     var minuteDuration = 60 * 1000
     var secondDuration = 1000
 
-    setInterval(function () {
+    var update = function () {
 
         var diff = new Date - togetherTime
         var day = diff / dayDuration | 0
-        
+
         diff = diff % dayDuration
         var hour = diff / hourDuration | 0
 
@@ -59,7 +59,10 @@
         minuteEle.innerText = minute + '分'
         secondEle.innerText = second + '秒'
 
-    }, 1000)
+    }
+
+    update()
+    setInterval(update, 1000)
 </script>
 
 
