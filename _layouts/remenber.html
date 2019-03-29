@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>smq💕lylh</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="day"></div>
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+</body>
+
+<script>
+    var dayEle = document.getElementById('day')
+    var hourEle = document.getElementById('hour')
+    var minuteEle = document.getElementById('minute')
+    var secondEle = document.getElementById('second')
+
+    var togetherTime = new Date
+    togetherTime.setFullYear(2019)
+    togetherTime.setMonth(0)
+    togetherTime.setDate(29)
+    togetherTime.setHours(16)
+    togetherTime.setMinutes(50)
+    togetherTime.setSeconds(0)
+
+    var dayDuration = 3600 * 24 * 1000
+    var hourDuration = 3600 * 1000
+    var minuteDuration = 60 * 1000
+    var secondDuration = 1000
+
+    setInterval(function () {
+
+        var diff = new Date - togetherTime
+        var day = diff / dayDuration | 0
+        
+        diff = diff % dayDuration
+        var hour = diff / hourDuration | 0
+
+        diff = diff % hourDuration
+        var minute = diff / minuteDuration | 0
+
+        var diff = diff % minuteDuration
+        var second = diff / secondDuration | 0
+
+        dayEle.innerText = day + '天'
+        hourEle.innerText = hour + '时'
+        minuteEle.innerText = minute + '分'
+        secondEle.innerText = second + '秒'
+
+    }, 1000)
+</script>
+
+
+</html>
