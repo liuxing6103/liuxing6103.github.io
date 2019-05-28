@@ -114,12 +114,12 @@
 	}
 
 	h1, h2 {
-	  line-height: 36px;
-	  margin-bottom: 18px;
+	  line-height: 28px;
+	  margin-bottom: 14px;
 	}
 
 	h1, h2, h3, h4 {
-	  margin-top: 1.5em;
+	  margin-top: 0.8em;
 	}
 
 	h3, h4, h5, h6 {
@@ -173,7 +173,7 @@
 
 	p, pre, address {
 	  font-size: 15px;
-	  line-height: 23px;
+	  line-height: 15px;
 	}
 
 	small {
@@ -188,8 +188,8 @@
 	ul, ol, dl, dialog {
 	  font-size: 14px;
 	  line-height: 20px;
-	  margin-top: 18px;
-	  margin-bottom: 18px;
+	  margin-top: 10px;
+	  margin-bottom: 30px;
 	}
 
 	li ul, li ol, ul ul, ol ol {
@@ -248,16 +248,15 @@
 	  border-left: none;
 	  color: rgba(0, 0, 0, 0.7);
 	  font-family: Quattrocento, serif;
-	  font-size: 15px;
-	  line-height: 25px;
-	  margin-top: 25px;
+	  font-size: 12px;
+	  line-height: 15px;
+	  margin-top: 10px;
 	}
 
 	blockquote p {
-	  font-size: 15px;
-	  margin: 20px 0 25px;
-	  padding: 0 15px;
-	  line-height: 25px;
+	  font-size: 12px;
+	  line-height: 15px;
+		margin: 8px;
 	}
 
 	ul, ol {
@@ -289,9 +288,8 @@
 
 	table {
 	  border-collapse: collapse;
-	  border-top: solid 3px #000;
 	  margin-top: 18px;
-	  width: 100%;
+	  width: 65%;
 	}
 	table th, table td {
 	  font-size: 15px;
@@ -310,10 +308,6 @@
 	}
 	table th:last-child, table td:last-child {
 	  padding-right: 0;
-	}
-	table tbody tr:nth-child(odd) th,
-	table tbody tr:nth-child(odd) td {
-	  background: rgba(0, 0, 0, 0.035);
 	}
 	table caption {
 	  color: rgba(0, 0, 0, 0.7);
@@ -359,11 +353,23 @@
 	  }
 	}
 
+	.div {
+		height: 2px;
+		background-color: #ccc;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+
 	</style>
 </head>
 
 <body id="wrapper">
-	<p><b><i>姓名：邵明全 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  联系电话：18741133436 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 工作经验：3年</i></b></p>
+	<table>
+		<tbody>
+			<tr><td><b>姓名：邵明全</b></td><td><b>工作经验：3年</b></td></tr>
+			<tr><td><b>联系电话：18741133436</b></td><td><b>邮箱：<a href="mailto:smq-js@qq.com">smq-js@qq.com</b></td></tr>
+		</tbody>
+	</table>
 	<h2><a id="_25"></a>就职经历</h2>
 	<ul>
 		<li>2018.3 ~ 至今： 字节跳动 （PGC）</li>
@@ -376,62 +382,62 @@
 	<h2><a id="_30"></a>技能概述</h2>
 	<p>技术：</p>
 	<ul>
-		<li>熟练使用<code>JavaScript</code>、<code>React</code>框架，掌握<code>CSS</code>，有移动端h5开发经验。</li>
-		<li>熟练使用<code>Golang</code>、<code>Node.js</code>，熟练掌握<code>HTTP</code>协议，有实际的服务端编码运维经验。</li>
-		<li>熟悉类<code>Unix</code>系统，使用过<code>MySQL</code>、<code>Redis</code>、<code>Kafka</code>为服务端系统服务。
+		<li>熟练使用<code>JavaScript</code>、<code>React</code>框架以及<code>Webpack</code>等工程化套件，掌握<code>CSS</code>，有移动端h5开发经验。</li>
+		<li>熟练使用<code>Golang</code>、<code>Node.js</code>，熟练掌握<code>HTTP</code>协议，有服务端开发经验，熟悉微服务体系。</li>
+		<li>熟悉类<code>Unix</code>系统，使用过<code>MySQL</code>、<code>Redis</code>、<code>Kafka</code>等组件为服务端系统服务。
 		</li>
 	</ul>
 	<p>业务：</p>
 	<ul>
-		<li>负责过中型全栈项目，中大型前端项目，的技术架构及进度把控。</li>
+		<li>负责过中型全栈项目，中大型前端项目的技术架构及进度把控。</li>
 		<li>有平台型产品经验，有数据处理、数据可视化经验。</li>
+		<li>经历过敏捷开发，有一定抗压能力。</li>
 	</ul>
     <h2><a id="_43"></a>主要项目经历</h2>
-	<h4><a id="EC_201810___47"></a>EC （2018.10 ~ 至今 \ @字节跳动）</h4>
+	<h4><a id="EC_201810___47"></a>EC （2018.10 ~ 至今  @字节跳动）</h4>
 	<blockquote>
-		<p>字节跳动教育方向孵化项目，已经对外，共10w+累计用户。基于微信公众号平台，采用<code>React</code>+<code>Mobx</code>+<code>TypeScript</code>技术栈。</p>
+		<p>项目概述：字节跳动教育方向孵化项目，已经对外，共10w+累计用户。形态为微信公众号和小程序，采用<code>React</code>+<code>Mobx</code>+<code>TypeScript</code>技术栈。</p>
 	</blockquote>
 	<p>工作包括：</p>
 	<ul>
 		<li>从0开始的技术架构，提测环境搭建、基于ProtoBuf的类型生成、自动mock等自动化流程，明显的降低接口对接成本，提高了mock数据生成速度，提高了研发效率。</li>
 		<li>需求评审，项目排期。</li>
 	</ul>
-	<br />
-	<h4><a id="_20185__20189_56"></a>今日头条媒体实验室 （2018.3 ~ 2018.9 \ @字节跳动）</h4>
+	<h4><a id="_20185__20189_56"></a>今日头条媒体实验室 （2018.3 ~ 2018.9  @字节跳动）</h4>
 	<blockquote>
-		<p>今日头条为创作者打造的用于查看热点数据的平台。</p>
+		<p>项目概述：今日头条为创作者打造的用于查看热点数据的平台。</p>
 	</blockquote>
 	<p>工作包括：</p>
 	<ul>
-		<li>使用<code>Golang</code>+<code>React</code>对工程进行技术迁移，使用字节跳动最新的服务化体系对陈旧的数据库、缓存、静态资源、service等进行迁移，使项目重新达到可维护状态。</li>
-		<li>迁移大数据存储，将数据从老旧的HBase集群迁移到新存储，提高存储的稳定性和查询速度。</li>
+		<li>使用<code>Golang</code>+<code>React</code>对工程进行技术迁移。</li>
+		<li>基础设施及数据迁移，使用字节跳动最新的服务化体系对陈旧的数据库、缓存、静态资源、service等进行迁移，使项目重新达到可维护状态。</li>
 	</ul>
 
-	<h4><a id="_20174__20182_77"></a>性能监控平台 （2017.4 ~ 2018.2 \ @美团点评）</h4>
+	<h4><a id="_20174__20182_77"></a>性能监控平台 （2017.4 ~ 2018.2  @美团点评）</h4>
 	<blockquote>
-		<p>在美团点评庞大的体量下，支撑各部门大前端上所有监控业务。使用<code>Storm</code>的multi-lang特性结合<code>node</code>平台做分布式计算，使用<code>React</code>实现通用查询工具。
+		<p>项目概述：在美团点评庞大的体量下，支撑各部门大前端上所有监控业务。使用<code>Node.js</code>平台，结合<code>Storm</code>的multi-lang特性做分布式计算，使用<code>React</code>实现通用查询工具。
 		</p>
 	</blockquote>
 	<p>工作包括：</p>
 	<ul>
-		<li>负责实时计算的数据回放，配额控制，去重服务，延迟监控。</li>
-		<li>使用<code>React</code>通用可视化工具，<code>Elasticsearch</code>数据对外api建设，提高数据灵活度、开放度。</li>
+		<li>负责数据回放，配额控制，去重服务，延迟监控。</li>
+		<li>使用<code>React</code>通用可视化工具，建设开放api接口供业务方使用。</li>
 	</ul>
-	<h4><a id="h5_20167__20174_87"></a>自助h5运营页平台 （2016.7 ~ 2017.4 \ @美团点评）</h4>
+	<h4><a id="h5_20167__20174_87"></a>自助h5运营页平台 （2016.7 ~ 2017.4  @美团点评）</h4>
 	<blockquote>
-		<p>支撑了美团点评百分之90%的运营活动页，提供运营自助可视化搭建页面以及工程师自定义组件能力。使用<code>zepto</code>+<code>amd</code>。</p>
+		<p>项目概述：支撑了美团点评百分之90%的运营活动页，提供运营自助可视化搭建页面以及工程师自定义组件能力。使用<code>zepto</code>+<code>amd</code>。</p>
 	</blockquote>
 	<p>工作包括：</p>
 	<ul>
-        <li>活动平台数据体系全链路建设，数据平台搭建，使活动效果易量化。</li>
-        <li>平台基础功能支持，<code>jsBridge</code>、动画与事件、数据埋点、平台交互优化。定制活动支持，如各种大促。</li>
+        <li>活动平台数据体系收集、离线、展示全链路建设，数据平台搭建，使活动效果易量化。</li>
+				<li>平台基础功能支持，<code>jsBridge</code>、动画与事件、数据埋点、平台交互优化。</li>
+				<li>h5活动定制，酒旅7周年大促签到，趣味新手指南等。</li>
 	</ul>
 
     <h2><a id="_25"></a>其他</h2>
     <ul>
-        <li><a href="https://shaomingquan.github.io/laboratory/">个人主页</a>：https://shaomingquan.github.io/laboratory/。</li>
-        <li><a href="https://slides.com/shaomingquan">技术分享</a>：https://slides.com/shaomingquan/。</li>
-        <li><a href="https://github.com/shaomingquan/catalyst-documentary#happy-hacking-">go web框架《catalyst》</a>：https://github.com/shaomingquan/catalyst-documentary#happy-hacking-。</li>
+        <li><a target="__blank" href="https://shaomingquan.github.io/laboratory/">个人主页：https://shaomingquan.github.io/laboratory/。</a></li>
+        <li><a target="__blank" href="https://slides.com/shaomingquan">技术分享：https://slides.com/shaomingquan/。</a></li>
     </ul>
 </body>
 </html>
