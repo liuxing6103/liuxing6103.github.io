@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    h1 {
+  /* 设置了字的大小，px是单位，你可以尝试改成其它大小 */
+  font-size: 20px;
+  }
+p{
+  /* 设置了字的颜色，你可以尝试改成yellow */
+  color: green;
+}
+p{
+  /* 设置了字的大小，px是单位，你可以尝试改成其它大小 */
+  font-size: 30px;
+}
+    </style>
 </head>
 <body>
-    liuxing first page ...
+    <h1>刘小猫想对你说……</h1>
+<img src="https://c-ssl.duitang.com/uploads/item/201708/24/20170824153726_cetXz.jpeg">
+<p>嗨，今天更喜欢我了吗，没有的话明天我再来问问~</p>
+<button id="btn">点击获得一只乖巧小猫</button>
+
+    <script>
+    document.getElementById("btn").onclick = function () {
+  // 点按钮后弹出一个文字，你可以尝试改变文字内容
+  alert("你的乖巧小猫上线啦，去亲她解锁更多姿势~");
+}
+    </script>
 </body>
 </html>
