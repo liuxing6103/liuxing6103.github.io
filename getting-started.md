@@ -15,7 +15,7 @@ cd /Users/apple/projects/liuxing6103.github.io
 
 1，提交
 
-git commit -a -m '在这里说点什么'
+git add -A; git commit -m '在这里说点什么'
 
 2，上传
 
